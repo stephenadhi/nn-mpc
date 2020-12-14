@@ -1,4 +1,8 @@
-# nn-mpc
-Neural Network-based >Model Predictive Control for a MIMO System using a Structured Control Strategy
+
+###Neural Network-based Model Predictive Control 
+
+Simply explained: https://stephenadhi.medium.com/model-based-rl-for-nonlinear-dynamics-control-a-case-study-70c31810f255
 
 ![Screenshot](mass-spring-damper.png)
+
+nb: this work was done as part of my Bachelor thesis. Contact me directly if you want to cite, I can help you with some resources.
