@@ -16,7 +16,11 @@ Designed framework to solve the task
 ![framework](flowchartreinf.png)
 
 The pseudo algorithm is:
+
 ![algo](algo.png)
+
+First 20 seconds is exploration with random actions, mass will be changed at 22 seconds to validate online learning capability. Control starts at 40 seconds
+![algo](effectchangemass.png)
 
 Final result:
 without disturbance:
