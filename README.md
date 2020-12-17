@@ -19,10 +19,12 @@ The pseudo algorithm is:
 
 ![algo](algo.png)
 
-First 20 seconds is exploration with random actions, mass will be changed at 22 seconds to validate online learning capability. Control starts at 40 seconds
-![algo](effectchangemass.png)
+There are two phases in RL: exploration and exploitation.
 
-Final result:
+First 20 seconds is exploration with random actions, mass will be changed at 22 seconds to validate online learning capability. Control starts at 40 seconds (exploitation)
+![changemass](effectchangemass22.png)
+
+## Final results
 without disturbance:
 ![result](changemassreinf.png)
 with disturbance:
