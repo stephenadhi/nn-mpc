@@ -26,6 +26,6 @@ First 40 seconds is exploration with random actions. Mass will be changed at 22 
 ![changemass](effectchangemass22.png)
 
 ## Final results
-[![final_result](https://img.youtube.com/vi/https://www.youtube.com/watch?v=tnP3pV4mtgQ&feature=youtu.be/0.jpg)](https://www.youtube.com/watch?v=tnP3pV4mtgQ&feature=youtu.be)
+[![final_result](https://img.youtube.com/vi/tnP3pV4mtgQ/0.jpg)](https://www.youtube.com/watch?v=tnP3pV4mtgQ&feature=youtu.be)
 
 
