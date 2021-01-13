@@ -47,9 +47,9 @@ Following proper design of reward function and neural network, the algorithm can
 ## Outlook
 The control algorithm takes about 4-5 seconds for each time step, because the computation is not optimized (GPU implementation not for all computation, but only for neural network training). Possible improvements for the future:
 - Integration of a convex-input neural network to learn the whole system dynamics
-- Rewrite code to make it valid for all MIMO systems, user-friendly application
-- Implementation of proposed approach in computing platforms (e.g. OpenCL with C++)
-- Experimental implementation of proposed approach on a real nonlinear MIMO system
+- Explore advanced RL algorithms
+- Faster implementation of the algorithm using computing frameworks (e.g. OpenCL with C++)
+- Experimental implementation on a real MIMO system
 
 ## References
 1. Hagan, M.T. ; Demuth, H.B. ; Jesus, O.d.: An introduction to the use of neural networks in control systems. In: Int. J. Robust Nonlinear Control Bd. 12. John Wiley and Sons Ltd, (2002), S. 959-985
