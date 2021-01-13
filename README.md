@@ -53,4 +53,10 @@ The control algorithm takes about 4-5 seconds for each time step, because the co
 - Implementation of proposed approach in computing platforms (e.g. OpenCL with C++)
 - Experimental implementation of proposed approach on a real nonlinear MIMO system
 
-
+## References
+1. Hagan, M.T. ; Demuth, H.B. ; Jesus, O.d.: An introduction to the use of neural networks in control systems. In: Int. J. Robust Nonlinear Control Bd. 12. John Wiley and Sons Ltd, (2002), S. 959-985
+2. Nagabandi, A. ; Kahn, G. ; Fearing, R.S. ; Levine, S.: Neural Network Dynamics for Model-Based Deep Reinforcement Learning with Model-Free Fine-Tuning. In: CoRR abs/1708.02596 (2017)
+3. Chen, Y. ; Shi, Y. ; Zhang, B.: Optimal Control Via Neural Networks: A Convex Approach. In: arXiv: Optimization and Control (2019)
+4. Sutton, RS. ; Barto, A.G.: Reinforcement Learning: An Introduction. Cambridge, MA, USA : A Bradford Book, (2018) — ISBN 0262039249
+5. Wong, W. ; Chee, E. ; Li, J. ;Wang, X.: Recurrent Neural Network-Based Model Predictive Control for Continuous Pharmaceutical Manufacturing. In: Mathematics 6 (2018), S. 242
+6. Rawlings, J. ; Mayne, D.Q. ; Diehl, M.: Model Predictive Control: Theory, Computation, and Design 2nd Edition. Santa Barbara, California: Nob Hill Publishing, LLC, (2019)
