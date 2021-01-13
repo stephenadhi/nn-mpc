@@ -2,10 +2,9 @@
 # Mass-Spring-Damper Simulation
 ![](mass-spring-damper.gif)
 
-***The codes are experimental for research purposes***
-This work presents control simulation of a mechanical system using a model-based reinforcement learning (RL) algorithm. 
+***The codes are experimental for research purposes
 
-This work was meant only for data exploration, experimentation, visualization, and understanding the general approach behind MPC and RL. 
+This work presents control simulation of a mechanical system using a model-based reinforcement learning (RL) algorithm. It was meant only for data exploration, experimentation, visualization, and understanding the general approach behind MPC and RL. 
 
 Summary
 - Integration of Model Predictive Control (MPC) and RL to control nonlinear MIMO system
