@@ -2,11 +2,11 @@
 # Mass-Spring-Damper Simulation
 ![](mass-spring-damper.gif)
 
-***The codes are experimental for research purposes
+### ***The codes are experimental for research purposes
 
 This work presents control simulation of a mechanical system using a model-based reinforcement learning (RL) algorithm. It was meant only for data exploration, experimentation, visualization, and understanding the general approach behind MPC and RL. 
 
-Summary
+### ummary
 - Integration of Model Predictive Control (MPC) and RL to control nonlinear MIMO system
 - Utilization of neural networks for online prediction of the local dynamics 
 
@@ -20,7 +20,7 @@ Requirements:
 
 Suppose we have three identical point masses m = 0.5 kg, with initial positions x1, x2, and x3. The dampers have damping constant d= 0.25 N.s/m each. The springs are nonlinear, described by the Newton’s law as:
 
-### F(x) = k.Δx^3 + kp.Δx^3,
+F(x) = k.Δx^3 + kp.Δx^3,
 
 with k = 217 N/m, and kp= 63.5 N/m³. 
 
