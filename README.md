@@ -1,5 +1,5 @@
 
-# Neural Network-based Model Predictive Control 
+# Model-based RL Algorithm
 Control simulation of a mechanical system using NN-MPC in a model-based reinforcement learning (RL) algorithm.
 ![Screenshot](mass-spring-damper.png)
 
@@ -15,20 +15,17 @@ with k = 217 N/m, and kp= 63.5 N/m³.
 Designed framework to solve the task
 ![framework](flowchartreinf.png)
 
-The pseudo algorithm is:
+The pseudo algorithm to validate the framework is:
 
 ![algo](algo.png)
 
 There are two phases in RL: exploration and exploitation.
+![testingmethod](testing_method.png)
 
-First 20 seconds is exploration with random actions, mass will be changed at 22 seconds to validate online learning capability. Control starts at 40 seconds (exploitation)
+First 40 seconds is exploration with random actions. Mass will be changed at 22 seconds to validate online learning capability. Control starts at 40 seconds (exploitation)
 ![changemass](effectchangemass22.png)
 
 ## Final results
-without disturbance:
-![result](changemassreinf.png)
-with disturbance:
-![result2](dist100changemassreinf.png)
-More details: https://stephenadhi.medium.com/model-based-rl-for-nonlinear-dynamics-control-a-case-study-70c31810f255
+![result](Control_result_nodist.mp4)
 
-Feel free to ask if you have any questions.
+
