@@ -14,6 +14,8 @@ Requirements:
 - Python 3.8
 - Tensorflow 2.3.0
 
+Link to Google Collab:
+
 ## Problem Example
 
 ![Screenshot](mass-spring-damper.png)
@@ -24,7 +26,11 @@ F(x) = k.Δx^3 + kp.Δx^3,
 
 with k = 217 N/m, and kp= 63.5 N/m³. 
 
-This problem is very unrealistic. The system is nonlinear and has an extremely high frequency. This is the main challenge for this work. 
+#### This problem is very unrealistic. The system is nonlinear and control starts at an extremely high frequency. This is the main challenge.
+
+The neural network has to learn the dynamics function between control inputs, current positions, and past positions. For this exploration purpose in RL, the system is actuated randomly for 40 seconds. 
+
+![final_result](fullexploration.gif)
 
 ### Problem goal 
 Steer the masses m1 and m3 to its desired reference position values x1_ref and x3_ref. An artificial neural network will be used to predict its future positions x1 and x3 based on the forces u1, dist, and u3.
@@ -37,7 +43,8 @@ There are two phases in RL: exploration and exploitation. For validation of onli
 
 ## Final results
 Following proper design of reward function and neural network, the algorithm can control the system within 100 time steps.
-[![final_result](control_results_nodist.gif)
+
+![final_result](control_results_nodist.gif)
 
 ## Outlook
 The control algorithm takes about 4-5 seconds for each time step, because the computation is not optimized (GPU implementation not for all computation, but only for neural network training). Possible improvements for the future:
