@@ -37,7 +37,7 @@ There are two phases in RL: exploration and exploitation. For validation of onli
 
 ## Final results
 Following proper design of reward function and neural network, the algorithm can control the system within 100 time steps.
-[![final_result](control_result_nodist.gif)
+[![final_result](control_results_nodist.gif)
 
 ## Outlook
 The control algorithm takes about 4-5 seconds for each time step, because the computation is not optimized (GPU implementation not for all computation, but only for neural network training). Possible improvements for the future:
