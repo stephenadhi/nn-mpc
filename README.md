@@ -30,15 +30,11 @@ This problem is very unrealistic. The system is nonlinear and has an extremely h
 ### Problem goal 
 Steer the masses m1 and m3 to its desired reference position values x1_ref and x3_ref. An artificial neural network will be used to predict its future positions x1 and x3 based on the forces u1, dist, and u3.
 
-## Model-based RL 
-Designed framework to solve the task:
 ![framework](flowchartreinf.png)
 
 There are two phases in RL: exploration and exploitation. For validation of online training, I did the following simulation for 40.6 seconds.
 ![testingmethod](testing_method.png)
 
-First 40 seconds is exploration with random actions. Mass will be changed at 22 seconds to validate online learning capability. Control starts at 40 seconds (exploitation) for 600 time steps.
-![changemass](effectchangemass22.png)
 
 ## Final results
 Following proper design of reward function and neural network, the algorithm can control the system within 100 time steps.
