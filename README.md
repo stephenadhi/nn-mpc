@@ -14,8 +14,6 @@ Requirements:
 - Python 3.8
 - Tensorflow 2.3.0
 
-Link to Google Collab:
-
 ## Problem Example
 
 ![Screenshot](mass-spring-damper.png)
