@@ -6,7 +6,7 @@
 
 This work presents control simulation of a mechanical system using a model-based reinforcement learning (RL) algorithm. It was meant only for data exploration, experimentation, visualization, and understanding the general approach behind MPC and RL. 
 
-### ummary
+### Summary
 - Integration of Model Predictive Control (MPC) and RL to control nonlinear MIMO system
 - Utilization of neural networks for online prediction of the local dynamics 
 
